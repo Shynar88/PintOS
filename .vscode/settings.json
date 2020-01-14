@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "palloc.h": "c",
+        "chrono": "c",
+        "syscall-nr.h": "c",
+        "ostream": "c",
+        "syscall.h": "c",
+        "list.h": "c",
+        "malloc.h": "c",
+        "vaddr.h": "c",
+        "inttypes.h": "c",
+        "tss.h": "c",
+        "pagedir.h": "c",
+        "process.h": "c",
+        "thread.h": "c"
+    }
+}

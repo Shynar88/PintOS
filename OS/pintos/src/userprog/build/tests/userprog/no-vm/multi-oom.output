@@ -1,0 +1,26 @@
+Copying tests/userprog/no-vm/multi-oom into /tmp/DarFRAgUaT.dsk...
+Writing command line to /tmp/6dv8J0daOU.dsk...
+qemu -hda /tmp/6dv8J0daOU.dsk -hdb /tmp/SV7pSKirTB.dsk -hdc /tmp/DarFRAgUaT.dsk -m 4 -net none -nographic -monitor null
+Kernel command line: -q -f put multi-oom run multi-oom
+Pintos booting with 4,096 kB RAM...
+374 pages available in kernel pool.
+374 pages available in user pool.
+Calibrating timer...  209,510,400 loops/s.
+hd0:0: detected 137 sector (68 kB) disk, model "QEMU HARDDISK", serial "QM00001"
+hd0:1: detected 4,032 sector (1 MB) disk, model "QEMU HARDDISK", serial "QM00002"
+hd1:0: detected 121 sector (60 kB) disk, model "QEMU HARDDISK", serial "QM00003"
+Formatting file system...done.
+Boot complete.
+Putting 'multi-oom' into the file system...
+Executing 'multi-oom':
+process_execute: filename is multi-oom
+Execution of 'multi-oom' complete.
+Timer: 88 ticks
+Thread: 30 idle ticks, 58 kernel ticks, 0 user ticks
+hd0:0: 0 reads, 0 writes
+hd0:1: 30 reads, 250 writes
+hd1:0: 121 reads, 0 writes
+Console: 784 characters output
+Keyboard: 0 keys pressed
+Exception: 0 page faults
+Powering off...

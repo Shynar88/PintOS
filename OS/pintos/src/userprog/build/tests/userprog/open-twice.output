@@ -1,0 +1,28 @@
+Copying tests/userprog/open-twice into /tmp/iyiaSydfsb.dsk...
+Copying ../../tests/userprog/sample.txt into /tmp/iyiaSydfsb.dsk...
+Writing command line to /tmp/q3zgUU6ViB.dsk...
+qemu -hda /tmp/q3zgUU6ViB.dsk -hdb /tmp/BQGsd9O4Ni.dsk -hdc /tmp/iyiaSydfsb.dsk -m 4 -net none -nographic -monitor null
+Kernel command line: -q -f put open-twice put sample.txt run open-twice
+Pintos booting with 4,096 kB RAM...
+374 pages available in kernel pool.
+374 pages available in user pool.
+Calibrating timer...  157,081,600 loops/s.
+hd0:0: detected 137 sector (68 kB) disk, model "QEMU HARDDISK", serial "QM00001"
+hd0:1: detected 4,032 sector (1 MB) disk, model "QEMU HARDDISK", serial "QM00002"
+hd1:0: detected 108 sector (54 kB) disk, model "QEMU HARDDISK", serial "QM00003"
+Formatting file system...done.
+Boot complete.
+Putting 'open-twice' into the file system...
+Putting 'sample.txt' into the file system...
+Executing 'open-twice':
+process_execute: filename is open-twice
+Execution of 'open-twice' complete.
+Timer: 84 ticks
+Thread: 30 idle ticks, 54 kernel ticks, 0 user ticks
+hd0:0: 0 reads, 0 writes
+hd0:1: 57 reads, 226 writes
+hd1:0: 108 reads, 0 writes
+Console: 850 characters output
+Keyboard: 0 keys pressed
+Exception: 0 page faults
+Powering off...

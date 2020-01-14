@@ -1,0 +1,26 @@
+Copying tests/filesys/base/lg-create into /tmp/v8zqfyeQuk.dsk...
+Writing command line to /tmp/Kncm7Yk7be.dsk...
+qemu -hda /tmp/Kncm7Yk7be.dsk -hdb /tmp/YsCpnBkS6T.dsk -hdc /tmp/v8zqfyeQuk.dsk -m 4 -net none -nographic -monitor null
+Kernel command line: -q -f put lg-create run lg-create
+Pintos booting with 4,096 kB RAM...
+374 pages available in kernel pool.
+374 pages available in user pool.
+Calibrating timer...  209,305,600 loops/s.
+hd0:0: detected 137 sector (68 kB) disk, model "QEMU HARDDISK", serial "QM00001"
+hd0:1: detected 4,032 sector (1 MB) disk, model "QEMU HARDDISK", serial "QM00002"
+hd1:0: detected 109 sector (54 kB) disk, model "QEMU HARDDISK", serial "QM00003"
+Formatting file system...done.
+Boot complete.
+Putting 'lg-create' into the file system...
+Executing 'lg-create':
+process_execute: filename is lg-create
+Execution of 'lg-create' complete.
+Timer: 84 ticks
+Thread: 30 idle ticks, 54 kernel ticks, 0 user ticks
+hd0:0: 0 reads, 0 writes
+hd0:1: 35 reads, 226 writes
+hd1:0: 109 reads, 0 writes
+Console: 784 characters output
+Keyboard: 0 keys pressed
+Exception: 0 page faults
+Powering off...

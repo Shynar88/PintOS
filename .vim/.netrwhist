@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/root/bochs-2.6.2/iodev/hdimage'
+let g:netrw_dirhist_2='/root/bochs-2.6.2/iodev'
+let g:netrw_dirhist_3='/root/bochs-2.6.2/iodev/hdimage'
+let g:netrw_dirhist_4='/root/bochs-2.6.2/iodev'
+let g:netrw_dirhist_5='/root/bochs-2.6.2'
+let g:netrw_dirhist_6='/root'
+let g:netrw_dirhist_7='/'
